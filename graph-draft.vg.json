@@ -223,8 +223,7 @@
       "encode": {
         "update": {
           "stroke": {"scale": "link-status","field": "value"},
-          "strokeWidth":{"value":"3"},
-          "strokeDash":{"range":["1","10"],"field":"value"}
+          "strokeWidth":{"value":"3"} 
           
         }
       },
