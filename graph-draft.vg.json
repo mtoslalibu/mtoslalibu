@@ -4,7 +4,7 @@
   "width": 700,
   "height": 300,
   "padding": 0,
-  "autosize": "none",
+  "autosize": "fit",
 
   "signals": [
      {
