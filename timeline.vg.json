@@ -9,8 +9,8 @@
         "name": "eventHover",
         "value": {},
         "on": [
-          {"events": "eventRects:mouseover", "update": "datum"},
-          {"events": "eventRects:mouseout",  "update": "{}"}
+          {"events": "rect:mouseover", "update": "datum"},
+          {"events": "rect:mouseout",  "update": "{}"}
         ]
       },
       {
