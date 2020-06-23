@@ -14,47 +14,47 @@
          "nodes": [
     {
       "name": "Myriel",
-      "type": "pod",
-      "group": 2,
+      "type": "deployment",
+      "group": 0,
       "index": 0
     },
     {
       "name": "Napoleon",
-      "type": "container",
-      "group": 3,
+      "type": "image",
+      "group": 7,
       "index": 1
     },
    
     {
       "name": "Mert",
       "type": "container",
-      "group": 34,
+      "group": 3,
       "index": 2
     },
     {
       "name": "Mlle.Baptistine",
       "type": "node",
-      "group": 4,
+      "group": 1,
       "index": 3
     },
     {
       "name": "Mme.Magloire",
       "type": "container",
-      "group": 1,
+      "group": 3,
       "index": 4
     },
     
     {
       "name": "Sadie",
       "type": "container",
-      "group": 1,
+      "group": 3,
       "index": 5
     }
     ,
     {
       "name": "Sri",
-      "type": "container",
-      "group": 1,
+      "type": "service",
+      "group": 2,
       "index": 6
     }
   ]
@@ -109,7 +109,7 @@
       "name": "color",
       "type": "ordinal",
       "domain": {"data": "node-data", "field": "group"},
-      "range": {"scheme": "category20c"}
+      "range": {"scheme": "category20"}
     }
   ],
    "signals": [
