@@ -16,12 +16,14 @@
       "name": "Myriel",
       "type": "deployment",
       "group": 0,
+      
       "index": 0
     },
     {
       "name": "Napoleon",
       "type": "image",
       "group": 7,
+      
       "index": 1
     },
    
@@ -67,11 +69,12 @@
     {
       "source": 1,
       "target": 0,
-      "value": 100
+      "value": 0
     },
     {
       "source" : 2,
       "target": 1,
+
       "value": 1
     },
     {
@@ -99,6 +102,12 @@
     }
   ],
  "scales": [
+   {
+      "name": "link-status",
+      "type": "ordinal",
+      "domain": {"data": "link-data", "field": "value"},
+      "range": ["lightgrey", "black"]
+    },
     {
       "name": "shape",
       "type": "ordinal",
@@ -213,7 +222,10 @@
       "interactive": false,
       "encode": {
         "update": {
-          "stroke": {"value": "lightgrey"}
+          "stroke": {"scale": "link-status","field": "value"},
+          "strokeWidth":{"value":"3"},
+          "strokeDash":{"range":["1","10"],"field":"value"}
+          
         }
       },
       "transform": [
