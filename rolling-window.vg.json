@@ -3,7 +3,7 @@
   "description": "Plot showing a 30 day rolling average with raw values in the background.",
   "width": 400,
   "height": 300,
-  "data": {"url": "https://github.com/vega/vega-datasets/blob/master/data/seattle-weather.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/vega/vega-datasets/master/data/seattle-weather.csv"},
   "transform": [{
       "frame": [-15, 15],
       "window": [
